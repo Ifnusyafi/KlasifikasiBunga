@@ -69,7 +69,7 @@ Bagian ini memaparkan hasil evaluasi model serta analisis mendalam mengenai perf
 ### A. Evaluasi Akurasi dan Loss
 Berikut adalah grafik perbandingan antara data *Training* dan *Validation* selama 10 Epoch:
 
-![Grafik Training](https://via.placeholder.com/800x300?text=Screenshot+Grafik+Loss+dan+Accuracy)
+![Akurasi](/readme/akurasiloss.png "Akurasi dan Loss")
 
 **Analisis:**
 1.  **Performa Umum:** Model berhasil mencapai akurasi validasi sekitar **80%**. Ini menunjukkan bahwa metode *Transfer Learning* dengan MobileNetV2 sangat efektif untuk dataset Oxford 102, mengingat melatih model dari awal (*scratch*) sangat sulit mencapai angka ini.
