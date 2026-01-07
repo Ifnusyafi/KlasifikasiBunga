@@ -49,7 +49,7 @@ Sebelum masuk ke model, data melalui tahapan berikut:
 2.  **Normalisasi:** Mengonversi nilai pixel dari rentang 0-255 menjadi **0-1** agar komputasi model lebih efisien.
 3.  **Batching:** Data dikelompokkan dalam *batch* (ukuran 32) untuk mempercepat pelatihan di GPU.
 
-![SampleAcak](/readme/sampleacak.png "Sampel Gambar Acak")
+![SampleAcak](/readme/SampleAcak.png "Sampel Gambar Acak")
 ---
 
 ## 4. Metodologi dan Arsitektur Model
