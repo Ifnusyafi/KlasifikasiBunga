@@ -100,3 +100,24 @@ Untuk melihat di mana letak kesalahan model, kita menggunakan Confusion Matrix:
 **Analisis:**
 * **Diagonal Utama:** Garis diagonal yang berwarna gelap menunjukkan bahwa mayoritas prediksi model sudah benar (Label Asli = Prediksi).
 * **Kesalahan Prediksi:** Bercak-bercak samar di luar diagonal menunjukkan kesalahan. Hal ini wajar terjadi pada jenis bunga yang memiliki kemiripan visual sangat tinggi (misalnya antara *'pink primrose'* dan *'primula'*), yang bahkan sulit dibedakan oleh mata manusia.
+
+
+## 8. Referensi
+Berikut adalah referensi utama yang digunakan dalam pengembangan proyek ini:
+
+1.  **[Dataset Oxford 102]**
+    M-E. Nilsback and A. Zisserman, *"Automated Flower Classification over a Large Number of Classes,"* in Proc. ICVGIP, 2008.
+    <br>🔗 [Link ke Paper & Dataset Asli](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
+
+2.  **[Arsitektur MobileNetV2]**
+    M. Sandler, A. Howard, M. Zhu, et al., *"MobileNetV2: Inverted Residuals and Linear Bottlenecks,"* CVPR, 2018.
+    <br>🔗 [Link ke ArXiv (PDF Resmi)](https://arxiv.org/abs/1801.04381)
+
+3.  **[Metodologi Transfer Learning]**
+    TensorFlow Core Team, *"Transfer Learning and Fine-Tuning with Keras,"* TensorFlow Documentation, 2024.
+    <br>🔗 [Link ke Dokumentasi Resmi](https://www.tensorflow.org/guide/keras/transfer_learning)
+    > *Panduan teknis utama yang digunakan dalam implementasi kode proyek ini.*
+
+4.  **[Teori Transfer Learning]**
+    S. J. Pan and Q. Yang, *"A Survey on Transfer Learning,"* IEEE Transactions on Knowledge and Data Engineering, 2010.
+    <br>🔗 [Link ke IEEE Xplore](https://ieeexplore.ieee.org/document/5288526)
