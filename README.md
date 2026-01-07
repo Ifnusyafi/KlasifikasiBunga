@@ -95,9 +95,7 @@ Nilai Precision dan Recall yang seimbang menunjukkan bahwa model tidak bias ke s
 ### C. Analisis Kesalahan (Confusion Matrix)
 Untuk melihat di mana letak kesalahan model, kita menggunakan Confusion Matrix:
 
-<div align="center">
-  <img src="https://via.placeholder.com/600x600?text=Screenshot+Confusion+Matrix" alt="Confusion Matrix" width="600"/>
-</div>
+![ConfusionMatrix](/readme/confusionmatrix.png "confusion matrix")
 
 **Analisis:**
 * **Diagonal Utama:** Garis diagonal yang berwarna gelap menunjukkan bahwa mayoritas prediksi model sudah benar (Label Asli = Prediksi).
