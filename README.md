@@ -49,9 +49,7 @@ Sebelum masuk ke model, data melalui tahapan berikut:
 2.  **Normalisasi:** Mengonversi nilai pixel dari rentang 0-255 menjadi **0-1** agar komputasi model lebih efisien.
 3.  **Batching:** Data dikelompokkan dalam *batch* (ukuran 32) untuk mempercepat pelatihan di GPU.
 
-![Sampel Dataset](https://via.placeholder.com/800x400?text=Screenshot+Sampel+9+Gambar+Bunga)
-> *Gambar 1: Sampel acak 9 jenis bunga dari dataset setelah proses resizing.*
-
+![SampleAcak](/readme/sampleacak.png "Sampel Gambar Acak")
 ---
 
 ## 4. Metodologi dan Arsitektur Model
